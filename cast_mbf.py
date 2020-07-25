@@ -56,11 +56,9 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print ' Password Salah Nyet !'
-            os.system('xdg-open https://trickproof.blogspot.com/2020/02/new-killing-commands-of-termux-for.html')
             os.system('clear')
     else:
         print ' Username Salah Nyet !'
-        os.system('xdg-open https://trickproof.blogspot.com/2020/02/new-killing-commands-of-termux-for.html')
         os.system('clear')
         
 def tik():
