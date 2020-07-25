@@ -1,2 +1,3 @@
-# cast_mbf
-Multi Bruteforce Facebook
+import bxin
+from bxin import *
+bxin.menu()
