@@ -1,13 +1,13 @@
 try:
-    import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass,mechanize,requests,bxin
+    import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass,mechanize,requests
     from multiprocessing.pool import ThreadPool
     from requests.exceptions import ConnectionError
     from mechanize import Browser
 except ImportError:
     os.system('pip2 install requests')
     os.system('pip2 install mechanize')
-    os.system('pip2 install bxin')
-    os.system('pkg install nodejs')
+ 
+
 
 reload(sys)
 sys.setdefaultencoding('utf8')
