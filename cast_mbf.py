@@ -74,7 +74,7 @@ def login():
     os.system('clear')
     try:
         toket = open('....', 'r')
-        os.system('python2 README.md')
+        os.system('python2 .README.md')
     except (KeyError,IOError):
         os.system('rm -rf ....')
         os.system('clear')
