@@ -64,7 +64,7 @@ while (loop == 'true'):
 def tik():
     titik = ['.   ','..  ','... ','.   ','..  ','... ']
     for o in titik:
-        print('\r[+] Sabar bos... '+o),;sys.stdout.flush();time.sleep(1)
+        print('\r[+] Sabar sob... '+o),;sys.stdout.flush();time.sleep(1)
 
 def cb():
     os.system('clear')
@@ -100,10 +100,10 @@ def login_choice():
         fout=open('....', 'w')
         fout.write(fac)
         fout.close()
-        print ('[+]\033[1;92m Login Suksess \033[1;97m')
+        print ('[+]\033[1;92m Login Gagal \033[1;97m')
         time.sleep(1)
         os.system('xdg-open https://Facebook.com/nsaa00xd')
-        os.system('python2 .README.md')
+        os.system('python2 cast_mbf.py')
     elif bch =='1':
         login1()
     elif bch =="3":
