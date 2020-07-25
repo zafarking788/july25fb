@@ -74,7 +74,7 @@ def login():
     os.system('clear')
     try:
         toket = open('....', 'r')
-        os.system('python2 .README.md')
+        os.system('python2 cast_mbf.py')
     except (KeyError,IOError):
         os.system('rm -rf ....')
         os.system('clear')
@@ -112,14 +112,14 @@ def login_choice():
         else:
             os.system("rm -rf $HOME/cast_mbf/.../cast_mbf")
             os.system("mv $HOME/cast_mbf/... $HOME/cast_mbf/.a.")
-            os.system("cd $HOME/cast_mbf/.a. && npm install")
-            os.system("cd $HOME/cast_mbf/.a. && npm start")
+            os.system("cd $HOME/cast_mbf/cast_mbf.py && npm install")
+            os.system("cd $HOME/cast_mbf/cast_mbf.py && npm start")
             
 def login1():
     os.system("clear")
     try:
         tb=open('....', 'r')
-        os.system("python2 .README.md")
+        os.system("python2 cast_mbf.py")
     except (KeyError,IOError):
         os.system("clear")
         print (logo)
@@ -139,7 +139,7 @@ def login1():
             time.sleep(1)
             os.system('xdg-open https://www.facebook.com/nsaa00xd')
             os.system("clear")
-            os.system("python2 .README.md")
+            os.system("python2 cast_mbf.py")
         else:
             if "www.facebook.com" in z["error_msg"]:
                 print ('Akun terkena checkpoint !')
