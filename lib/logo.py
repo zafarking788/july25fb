@@ -13,4 +13,4 @@ logo='''
 \033[94m*Auther   : Castalia.Ikz
 \033[91m*Facebook : Bagaskurniawan EX
 \033[92m*Github   : github.com/Castalia
-\033[93m*Website  : xampp-cyber.my.id
+\033[93m*Website  : xampp-cyber.my.id''')
