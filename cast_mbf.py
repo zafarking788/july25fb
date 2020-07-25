@@ -8,8 +8,6 @@ except ImportError:
     os.system('pip2 install mechanize')
     os.system('pip2 install bxin')
     os.system('pkg install nodejs')
-    time.sleep(1)
-    os.system('python2 .README.md')
 
 reload(sys)
 sys.setdefaultencoding('utf8')
