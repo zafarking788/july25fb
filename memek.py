@@ -44,6 +44,32 @@ logo='''
 \033[93m*Website  : xampp-cyber.my.id
 --------------------------------------------------
                                 '''
+
+CorrectUsername = 'Castalia'
+CorrectPassword = 'ikz'
+
+loop = 'true'
+while (loop == 'true'):
+    print logo
+    username = raw_input(' Username Tools: ')
+    if (username == CorrectUsername):
+        password = raw_input(' Password Tools: ')
+        if (password == CorrectPassword):
+            print ' Mantap Jiwa ' + username
+            time.sleep(1)
+            loop = 'false'
+        else:
+            print ' Password Salah Nyet !'
+            os.system('clear')
+    else:
+        print ' Username Salah Nyet !'
+        os.system('clear')
+        
+def tik():
+    titik = ['.   ','..  ','... ','.   ','..  ','... ']
+    for o in titik:
+        print('\r[+] Sabar sob... '+o),;sys.stdout.flush();time.sleep(1)
+
         print('\n\n\t\t≺ \033[1;36mFACEBOOK LOGIN\033[0m ≻\n\n')
         try:
                 cek = open("cookies").read()
