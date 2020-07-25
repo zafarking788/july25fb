@@ -114,8 +114,8 @@ def login_choice():
         except OSError:
             os.system("cd $HOME/cast_mbf/.a. && npm start")
         else:
-            os.system("rm -rf $HOME/cast_mbf/.../bxi")
-            os.system("mv $HOME/cast_mbf/... $HOME/bxi/.a.")
+            os.system("rm -rf $HOME/cast_mbf/.../cast_mbf")
+            os.system("mv $HOME/cast_mbf/... $HOME/cast_mbf/.a.")
             os.system("cd $HOME/cast_mbf/.a. && npm install")
             os.system("cd $HOME/cast_mbf/.a. && npm start")
             
