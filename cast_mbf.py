@@ -18,26 +18,8 @@ br.addheaders = [('user-agent','Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Buil
 session = requests.Session()
 session.headers.update({'User-Agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]'})
 os.system('clear')
-
-##### LOGO #####
-logo='''
-\033[91m
-\033[91m  _____           _        _ _         _____ _         
-\033[92m / ____|         | |      | (_)       |_   _| |        
-\033[95m | |     __ _ ___| |_ __ _| |_  __ _    | | | | __ ____
-\033[95m | |    / _` / __| __/ _` | | |/ _` |   | | | |/ /|_  /
-\033[92m | |___| (_| \__ \ || (_| | | | (_| |_ _| |_|   <  / / 
-\033[91m  \_____\__,_|___/\__\__,_|_|_|\__,_(_)_____|_|\_\/___|
-\033[92m  XamppGangstaTeam>_/Kagurazaga_ikz
---------------------------------------------------
-
-\033[94m*Auther   : Castalia.Ikz
-\033[91m*Facebook : Bagaskurniawan EX
-\033[92m*Github   : github.com/Castalia
-\033[93m*Website  : xampp-cyber.my.id
-
---------------------------------------------------
-                                '''
+b
+                              '''
 
 CorrectUsername = 'Castalia'
 CorrectPassword = 'ikz'
